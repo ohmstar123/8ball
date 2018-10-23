@@ -35,6 +35,8 @@
             // ballButton
             // 
             this.ballButton.FlatAppearance.BorderSize = 0;
+            this.ballButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.ballButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.ballButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ballButton.Image = global::_8ball.Properties.Resources.clickBall;
             this.ballButton.Location = new System.Drawing.Point(143, 12);

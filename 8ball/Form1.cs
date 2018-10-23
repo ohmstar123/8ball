@@ -17,12 +17,12 @@ namespace _8ball
         public Form1()
         {
             InitializeComponent();
-            Random randgen = new Random();
-            ballNumber = randgen.Next(1, 7);
         }
 
         private void ballButton_Click(object sender, EventArgs e)
         {
+            Random randgen = new Random();
+            ballNumber = randgen.Next(1, 7);
 
             switch (ballNumber)
             {
